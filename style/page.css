@@ -1,0 +1,11 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.page {
+  max-width: 1440px;
+  min-width: 320px;
+  background: #ffffff;
+  margin: 0 auto;
+}

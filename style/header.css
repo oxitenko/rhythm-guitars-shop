@@ -1,0 +1,107 @@
+.header {
+  background-image: url(../image/header-guitar.png);
+  background-size: cover 672px 586px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: top right;
+  position: relative;
+  height: 586px;
+}
+
+.header__logo-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 123px;
+  gap: 12px;
+  padding-left: 120px;
+  padding-top: 64px;
+}
+
+.header__logo {
+  width: 28px;
+  height: 28px;
+}
+
+.header__logo-text {
+  font-family: "Cal Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #121212;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  gap: 56px;
+  padding-left: 131px;
+}
+
+.navigation__element {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(18, 18, 18, 0.4);
+  margin: 0;
+  text-decoration: none;
+}
+
+.header__app {
+  width: 469px;
+  padding-top: 147px;
+  padding-left: 120px;
+}
+
+.app__title {
+  font-family: "Cal Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 67px;
+  color: #121212;
+  margin-bottom: 16px;
+  margin: 0;
+}
+
+.color__orange {
+  color: #ff6428;
+}
+
+.app__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-bottom: 33px;
+  margin: 0;
+}
+
+.app__container {
+  margin-top: 33px;
+}
+
+.app__button {
+  width: 192px;
+  height: 60px;
+  background: #ff6428;
+  border-radius: 40px;
+  align-items: center;
+  padding: 18px 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.app__icon:first-child {
+  margin-right: 27px;
+}

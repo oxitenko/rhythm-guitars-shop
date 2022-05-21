@@ -1,0 +1,61 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  width: 1088px;
+  margin: 0 auto;
+}
+
+.categories__title {
+  font-family: "Cal Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 53px;
+  color: #000000;
+  text-align: center;
+}
+
+.categories__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 69px;
+}
+
+.categories__item {
+  width: 220px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.categories__item-acoustic {
+  background-image: url(../image/acoustic.png);
+}
+
+.categories__item-electric {
+  background-image: url(../image/electric.png);
+}
+
+.categories__item-basses {
+  background-image: url(../image/basses.png);
+}
+
+.categories__item-collections {
+  background-image: url(../image/collections.png);
+}
+
+.categories__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
